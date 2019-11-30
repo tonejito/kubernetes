@@ -1,0 +1,7 @@
+# /etc/default/kubelet
+#
+# From /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
+#
+# This is a file that the user can use for overrides of the kubelet args as a last resort. Preferably, the user should use
+# the .NodeRegistration.KubeletExtraArgs object in the configuration files instead. KUBELET_EXTRA_ARGS should be sourced from this file.
+#KUBELET_EXTRA_ARGS="--node-ip=192.168.10.9"
